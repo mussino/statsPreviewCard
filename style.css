@@ -37,14 +37,14 @@ main {
     font-size: 2rem;
     color: hsl(0, 0%, 100%);   
     font-family: 'Inter', sans-serif;
-    padding: 40px 40px 0 40px;
+    padding: 60px 60px 0 40px;
 
 }
 .center .insights {
     color: hsl(277, 64%, 61%);
 }
 .center .description {
-    padding: 0 40px;
+    padding: 20px 100px 40px 40px;
     font-size: 0.9rem;
     line-height: 1.5;
     font-family: 'Inter', sans-serif;
@@ -54,7 +54,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 20px 40px;
     gap: 40px;
 }
 .stats h2 {
