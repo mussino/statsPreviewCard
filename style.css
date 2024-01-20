@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-
-/*
-font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-*/
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
+    /*overflow: hidden;*/
     min-height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +18,7 @@ main {
     min-height: 400px;
     background-color: hsl(244, 38%, 16%);
     display: flex;
-    margin-bottom: 40px;
+    border-radius: 10px;
 }
 .center {
     width: 50%;
@@ -32,6 +26,7 @@ main {
     flex-direction: column;
     align-items:flex-start;
     gap: 20px;
+    padding-left: 20px;
 }
 .center h1 {
     font-size: 2rem;
@@ -64,23 +59,13 @@ main {
 .stats p {
     color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding-top: 8px;
+    letter-spacing: 1.5px;
 }
 .image {
     width: 50%;
-}
-.attribution {
-    font-size: .8rem;
-    color: aqua;
-}
-.attribution a {
-    color: hsl(224, 23%, 55%);
-}
-.attribution .author {
-    font-style: italic;
-
-    &:hover {
-        color: orange;
-        cursor: pointer;
-        transition: .5s ease;
-    }
+    border-radius: 0 10px 10px 0;
+    object-fit: cover;
 }
